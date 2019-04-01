@@ -51,6 +51,10 @@ footer {
   border: 5px solid black;
 }
 
+#modified {
+  text-align: center;
+}
+
 /*Navigation Link Styling*/
 nav a:link {
   color: red;
