@@ -1,0 +1,61 @@
+body {
+  background-color: #6298af;
+
+}
+
+header {
+  background-color: #8c8b8a;
+}
+
+nav {
+  background-color: #6298af;
+}
+
+ul {
+  background-color: #acacac;
+  list-style-type: none;
+}
+
+li {
+  background-color: #cacaca;
+}
+
+section {
+  background-color: #6298af;
+}
+
+h1 {
+  color: gold;
+  background-color: #2ba51d;
+  text-shadow: 2px 2px 2px black;
+  font-size: 27pt;
+}
+
+h2 {
+  font-size: 22pt;
+}
+
+h3 {
+  background-color: #6298af;
+}
+
+p {
+font-size:12pt;
+}
+
+footer {
+  background-color: #cacaca;
+}
+
+.logo {
+  border: 5px solid black;
+}
+
+/*Navigation Link Styling*/
+nav a:link {
+  color: red;
+}
+
+nav a:hover {
+  color: black;
+}
