@@ -1,3 +1,8 @@
+html{
+  font-size: 10px;
+  font-family: sans-serif;
+  background-color: black;
+}
 body {
   background-color: #6298af;
 
@@ -11,17 +16,20 @@ nav {
   background-color: #6298af;
 }
 
-ul {
+nav ul {
   background-color: #acacac;
   list-style-type: none;
+  text-align: center;
+  padding: 5px 0 5px 0;
 }
 
-li {
+nav li {
   background-color: #cacaca;
   display:inline-block;
-  margin-right:100px;
-  font-size: 25px;
+  font-size: 2.5rem;
   font-weight: bold;
+  padding: 5px 25px 5px 25px;
+  border-radius: 20px;
 }
 
 section {
@@ -32,11 +40,12 @@ h1 {
   color: gold;
   background-color: #2ba51d;
   text-shadow: 2px 2px 2px black;
-  font-size: 27pt;
+  font-size: 3.0rem;
+  text-align: center;
 }
 
 h2 {
-  font-size: 22pt;
+  font-size: 2.5rem;
 }
 
 h3 {
@@ -44,7 +53,7 @@ h3 {
 }
 
 p {
-font-size:12pt;
+font-size:1.5rem;
 }
 
 footer {
@@ -53,6 +62,9 @@ footer {
 
 .logo {
   border: 5px solid black;
+  text-align: center;
+  margin: 10px;
+  border-radius: 20px
 }
 
 #modified {
@@ -66,4 +78,12 @@ nav a:link {
 
 nav a:hover {
   color: black;
+}
+
+.main img {
+  border-radius: 50px 15px 50px 15px;
+}
+
+.main {
+  text-align: justify;
 }
