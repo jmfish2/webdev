@@ -96,7 +96,7 @@ nav a:hover {
 }
 
 .main p::first-letter {
-  font-size: 1.75em;
+  font-size: 2.5em;
   border: 1px solid black;
   background: #8c8b8a;;
   display: block;
