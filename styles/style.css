@@ -1,37 +1,43 @@
 html{
   font-size: 10px;
   font-family: sans-serif;
-  background-color: black;
 }
 body {
   background-color: #6298af;
-
+  font-size: 1.5rem;
 }
 
 header {
-  background-color: #8c8b8a;
+  background-color: #6298af;
+  display: grid;
+  grid-template-columns: 175px 2fr;
 }
 
-nav {
-  background-color: #6298af;
+header h1 {
+  font-size: 5rem;
+}
+
+header h2 {
+  text-align: center;
 }
 
 nav ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   background-color: #acacac;
   list-style-type: none;
   text-align: center;
-  padding: 5px 0 5px 0;
+  padding: 5px 20px 5px 20px;
 }
 
 nav li {
   background-color: #cacaca;
-  display:inline-block;
   font-size: 2.5rem;
   font-weight: bold;
-  padding: 5px 25px 5px 25px;
   border-radius: 20px;
+  padding: 10px;
+  margin-right: 50px
 }
-
 section {
   background-color: #6298af;
 }
@@ -42,6 +48,7 @@ h1 {
   text-shadow: 2px 2px 2px black;
   font-size: 3.0rem;
   text-align: center;
+  line-height: 40px
 }
 
 h2 {
@@ -60,10 +67,12 @@ margin-right: 50px;
 footer {
   background-color: #cacaca;
   margin-top: 50px;
+  font-size: 1.5rem;
+  padding: 5px;
 }
 
-.logo {
-  border: 5px solid black;
+header img {
+  border: 2px solid black;
   text-align: center;
   margin: 10px;
   border-radius: 20px
@@ -87,7 +96,7 @@ nav a:hover {
 }
 
 .main {
-  text-align: justify;
+  text-align: center;
 }
 
 /*AboutMe Specific Styling*/
